@@ -1,0 +1,106 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background:linear-gradient(#b4b4b4,#FEFEFE );
+    padding: 20px 0px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;   
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #b92020;
+}
+
+footer{
+    text-align: center;
+    background-color: #110e0e;
+    background: url(imagenes/bg.webp);
+    padding: 40px;
+}
+
+.Copyright{
+    color: #ffffff;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.productos{
+   
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid #000000bd;
+    border-radius: 10px;
+    margin: 0 1.5%;
+    padding: 30px 5px;
+    box-sizing: border-box;
+}
+
+.productos li:hover{
+
+    border-color: #c778c7;
+}
+
+.productos li:hover h2{
+
+    font-size: 33px;
+}
+
+.productos li:active {
+    border-color: #3abe50;
+}
+.productos li:active h2 {
+    color: #3abe50;
+}
+
+
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 20px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
